@@ -12,11 +12,11 @@ const Search = () => {
         const searchParams = new URLSearchParams(location.search)
         const query = searchParams.get('query')
         console.log(query)
-        if(query) {{
+        if(query) {
             await fetchSearchData(query).then((res) => {
                 setGlobalState({type: 'SET_SEARCHED', payload: {searched: res.data.items}})
             })
-        }}
+        }
     }
     useEffect(() => {
         setSearchRuselt()

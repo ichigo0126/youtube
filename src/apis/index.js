@@ -1,4 +1,3 @@
-import { parseClassNames } from '@fullcalendar/react'
 import axios from 'axios'
 
 const KEY = 'AIzaSyCBvBunAgTv86_tFNuZ3sYXmLW01kMoWMY'
